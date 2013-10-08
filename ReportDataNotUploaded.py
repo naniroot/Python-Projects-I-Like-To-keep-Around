@@ -293,15 +293,15 @@ class CSUploadInterval:
     '''
     classdocs
     '''
-    _smtpServer = 'smtp.commvault.com'
+    _smtpServer = ''
     _bOpenConnectionSurvey = False
     _dbSurvey = Database()
 
     #Database holding survey table
-    sz_DbName = 'cvcloud'
-    sz_DbServer = '172.20.35.50\commvault'
-    sz_DbUser = 'devlogin'
-    sz_DbPw = 'commvault!12'
+    sz_DbName = ''
+    sz_DbServer = ''
+    sz_DbUser = ''
+    sz_DbPw = ''
     Success = False
 
     def __init__(self):
